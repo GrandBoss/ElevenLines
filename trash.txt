@@ -1,0 +1,21 @@
+
+    for numof_nodes_in_layer in range(1,4):
+        first_syn = 2 * np.random.random((CONST_INPUT_NODE_COUNT, numof_nodes_in_layer))
+        syn = 2 * np.random.random((numof_layers, CONST_INPUT_NODE_COUNT, numof_nodes_in_layer)) - 1
+        last_syn = 2 * np.random.random((numof_nodes_in_layer, 1))
+
+
+
+        
+    
+    if num_of_mid_layers > 1:
+        num_of_nodes = 
+        syn[0] = 2 * np.random.random(len(input_array[0]), num_of_nodes)) - 1
+        #                           Number Of layers, Number of Left side Nodes, Number of Right side nodes
+        for layer_num in range(1, num_of_mid_layers):
+            syn[layer_num] = 2 * np.random.random(len((syn[layer_num-1][0]), numof_nodes_in_layer)) - 1
+        syn.append(2 * np.random.random((syn[len(syn-1)], 1)) - 1)
+    else:    
+        syn[0] = (2 * np.random.random(len(input_array[0])], 1)) - 1)
+
+    return syn
